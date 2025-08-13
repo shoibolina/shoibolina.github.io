@@ -1,7 +1,7 @@
-baseURL: https://hugo-toha.github.io
+baseURL: "https://shoibolina.github.io/"
 
-languageCode: bn
-title: "John's Blog"
+languageCode: "en-us"
+title: "Shoibolina Kaushik"
 
 # Use Hugo modules to add theme
 module:
@@ -21,15 +21,15 @@ module:
 # For any more details, you can check the official documentation: https://gohugo.io/content-management/multilingual/
 languages:
   en:
-    languageCode: en
+    languageCode: "en-us"
     languageName: English
-    title: "John's Blog"
+    title: "Shoibolina Kaushik"
     weight: 1
-  bn:
-    languageCode: bn
-    languageName: বাংলা
-    title: জনের ব্লগ
-    weight: 2
+  # bn:
+  #   languageCode: bn
+  #   languageName: বাংলা
+  #   title: জনের ব্লগ
+  #   weight: 2
 # default language for the content
 defaultContentLanguage: en
 
