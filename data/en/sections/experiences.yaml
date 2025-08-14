@@ -11,13 +11,13 @@ section:
 # Your experiences
 experiences:
 - company:
-    name: Department of Environmental Sciences, Emory University
+    name: Emory University
     url: "https://ecds.emory.edu/"
     location: Atlanta, GA, USA
     # company overview
   positions:
     # project title
-  - designation: Gates Foundation funded Malaria control initiative in Ethiopia
+  - designation: Department of Environmental Sciences, Gates Foundation funded Malaria control initiative in Ethiopia
     start: Jul 2025
     # end: Jul 2026
     # don't provide end date if you are currently working there. It will be replaced by "Present"

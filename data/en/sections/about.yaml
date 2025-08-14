@@ -76,7 +76,7 @@ badges:
 - type: certification
   name: tensorflow
   url:  "https://www.tensorflow.org/"
-  badge: "/badges/TensorFlow.png"
+  badge: "files/badges/TensorFlow.png" # didn't work
 
 - type: certification
   name: opencv
@@ -86,12 +86,12 @@ badges:
 - type: certification
   name: postgres
   url:  "https://pytorch.org/"
-  badge: "https://iconape.com/tensorflow-logo-logo-icon-svg-png.html"
+  badge: "/files/badges/tensorflow-seeklogo.com.svg" # didn't work
 
 - type: certification
   name: flask
   url:  "https://pytorch.org/"
-  badge: "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg"
+  badge: "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg" # worked
 
 - type: certification
   name: react
