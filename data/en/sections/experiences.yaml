@@ -16,9 +16,9 @@ experiences:
     location: Atlanta, GA, USA
     # company overview
   positions:
-    # project title: Gates Foundation funded Malaria control initiative in Ethiopia
+  - project title: Gates Foundation funded Malaria control initiative in Ethiopia
   - designation: Department of Environmental Sciences
-    project title: Gates Foundation funded Malaria control initiative in Ethiopia
+    # project title: Gates Foundation funded Malaria control initiative in Ethiopia
     start: Jul 2025
     # end: Jul 2026
     # don't provide end date if you are currently working there. It will be replaced by "Present"
