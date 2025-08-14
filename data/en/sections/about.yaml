@@ -96,7 +96,7 @@ badges:
 - type: certification
   name: react
   url:  "https://pytorch.org/"
-  badge: "hugo-toha.github.io-main/static/files/badges/postgresql-original-wordmark.svg"
+  badge: "files/badges/postgresql-original-wordmark.svg"
 
 - type: certification
   name: gcp
