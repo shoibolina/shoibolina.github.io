@@ -86,7 +86,7 @@ badges:
 - type: certification
   name: postgres
   url:  "https://pytorch.org/"
-  badge: "/files/badges/tensorflow-seeklogo.com.svg" # didn't work
+  badge: "/files/badges/tensorflow-seeklogo.com.svg" # works really well!
 
 - type: certification
   name: flask
@@ -96,7 +96,7 @@ badges:
 - type: certification
   name: react
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "hugo-toha.github.io-main/static/files/badges/postgresql-original-wordmark.svg"
 
 - type: certification
   name: gcp
