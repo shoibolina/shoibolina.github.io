@@ -17,10 +17,9 @@ experiences:
     # company overview
   positions:
   # - project title: Gates Foundation funded Malaria control initiative in Ethiopia
-  - designation: >-
-      Research Scientist
-      <br><span class="text-muted">Department of Environmental Sciences</span>
-      <br>Gates Foundation funded Malaria control initiative in Ethiopia
+  - designation: Research Scientist
+    department: Department of Environmental Sciences
+    project: Gates Foundation funded Malaria control initiative in Ethiopia
     # project title: Gates Foundation funded Malaria control initiative in Ethiopia
     start: Jul 2025
     # end: Jul 2026
