@@ -24,9 +24,9 @@ summary: "As a Machine Learning and Artificial Intelligence enthusiast with over
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-- name: Email
-  icon: "fas fa-envelope"
-  url: "shoibolina.kaushik@gmail.com"
+# - name: Email
+#   icon: "fas fa-envelope"
+#   url: "shoibolina.kaushik@gmail.com"
 
 - name: Github
   icon: "fab fa-github"
@@ -40,9 +40,9 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "#"
 
-- name: Twitter
-  icon: "fab fa-twitter"
-  url: "https://www.linkedin.com/in/shoibolina-kaushik/"
+# - name: Twitter
+#   icon: "fab fa-twitter"
+#   url: "https://www.linkedin.com/in/shoibolina-kaushik/"
 
 # - name: Facebook
 #   icon: "fab fa-facebook"
@@ -81,17 +81,17 @@ badges:
 - type: certification
   name: opencv
   url:  "https://opencv.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
 
 - type: certification
   name: postgres
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "https://iconape.com/tensorflow-logo-logo-icon-svg-png.html"
 
 - type: certification
   name: flask
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg"
 
 - type: certification
   name: react
