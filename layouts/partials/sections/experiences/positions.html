@@ -18,7 +18,7 @@
             <!-- <p class="text-muted">
                 {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
             </p> -->
-            <p class="text-muted ml-2">
+            <p class="text-muted me-2">
             <i class="fa-solid fa-location-dot"></i> {{ .company.location }}
         </p>
         </div>
@@ -105,9 +105,9 @@
             {{ if or $position.designation $position.start }}
                 <div class="d-flex flex-wrap align-items-baseline">
                 {{ with $position.designation}}
-                    <div class="h6 text-muted me-3">{{ . }}</div>
+                    <div class="h5 text-muted me-3">{{ . }}</div>
                 {{ end }}
-                <div class="text-muted small">
+                <div class="h6 text-muted">
                     {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
                 </div>
                 </div>
