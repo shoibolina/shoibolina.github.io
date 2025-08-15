@@ -49,7 +49,7 @@ experiences:
 #     - Stored and managed the generated keypoint data on the department’s high-performance computing cluster, enabling scalable ccess and streamlined processing for subsequent analysis workflows
 
 - company:
-    name: Laney Graduate School, Emory University
+    name: Department of Environmental Sciences, Laney Graduate School
     url: "https://ecds.emory.edu/"
     location: Atlanta, GA, USA
     # company overview
@@ -69,7 +69,7 @@ experiences:
     - vector det
 
 - company:
-    name: Woodruff Library Building at Emory
+    name: Emory Center for Digital Scholarship, Woodruff Library
     url: "https://ecds.emory.edu/"
     location: Atlanta, GA, USA
     # company overview
@@ -86,7 +86,7 @@ experiences:
     - Automated large-scale inference by stitching tile-level predictions into a dimension-matched GeoTIFF and hardened GPU workflows with proactive memory clears plus standardized mask polarity, eliminating out of memory (OOM) errors
 
 - company:
-    name: Emory School of Medicine, Emory University
+    name: Department of Biomedical Informatics, Emory School of Medicine
     url: "https://ecds.emory.edu/"
     location: Atlanta, GA, USA
     # company overview
