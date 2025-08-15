@@ -99,6 +99,9 @@
             {{/* Project title — accent (same as links) */}}
             {{ with $position.project }}
                 <div class="h3 font-semibold">{{ . }}</div>
+                <div class="h6 text-muted">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div>
             {{ end }}
 
             {{/* Department + date on one line */}}
