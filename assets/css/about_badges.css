@@ -9,8 +9,8 @@
 
 /* Give every badge a same-sized box */
 .about-section .certificate-badge {
-  width: 160px;          /* tweak if you want bigger/smaller */
-  height: 90px;
+  width: 10px;          /* tweak if you want bigger/smaller */
+  height: 9px;
   display: flex;
   align-items: center;
   justify-content: center;
