@@ -29,16 +29,18 @@
     <div class="positions">
     {{ range $index,$position:= .positions }}
         <div class="company-heading">
-            {{ with $position.department }}
-                <div class="text-muted mt-1">{{ . }}</div>
-            {{ end }}
-            
+
             {{ with $position.project }}
                 <div class="h5 font-semibold mt-1">{{ . }}</div>
             {{ end }}
 
-            <h5 class="designation">{{ $position.designation }}</h5>
+            {{ with $position.department }}
+                <div class="text-muted mt-1">{{ . }}</div>
+            {{ end }}
             <p class="text-muted">{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
+
+            <h5 class="designation">{{ $position.designation }}</h5>
+            
         </div>
         <!-- Add the responsibilities handled at this position -->
         {{ if $position.responsibilities }}
