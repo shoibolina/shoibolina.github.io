@@ -80,14 +80,16 @@ badges:
   badge: "/files/badges/tensorflow-seeklogo.com.svg"
 
 - type: certification
+  name: postgres
+  url:  "https://www.postgresql.org/"
+  badge: "files/badges/postgresql-original-wordmark.svg"
+
+- type: certification
   name: opencv
   url:  "https://opencv.org/"
   badge: "/files/badges/opencv.svg"
 
-- type: certification
-  name: postgres
-  url:  "https://www.postgresql.org/"
-  badge: "files/badges/postgresql-original-wordmark.svg"
+
 
 - type: certification
   name: flask
