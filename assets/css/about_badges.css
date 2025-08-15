@@ -1,0 +1,40 @@
+/* Make the badges lay out nicely */
+.about-section .certificate-badges,
+.about-section .badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: center;
+}
+
+/* Give every badge a same-sized box */
+.about-section .certificate-badge {
+  width: 160px;          /* tweak if you want bigger/smaller */
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important; /* override theme's extra padding on tiny screens */
+}
+
+/* Fit the logo inside that box without stretching */
+.about-section .certificate-badge img {
+  max-height: 64px;      /* makes all logos feel equal */
+  max-width: 150px;
+  height: auto;
+  width: auto;
+  object-fit: contain;   /* keeps aspect ratio, no cropping */
+  display: block;
+}
+
+/* Optional: a little upscale on big screens */
+@media (min-width: 992px) {
+  .about-section .certificate-badge {
+    width: 180px;
+    height: 100px;
+  }
+  .about-section .certificate-badge img {
+    max-height: 72px;
+    max-width: 170px;
+  }
+}
