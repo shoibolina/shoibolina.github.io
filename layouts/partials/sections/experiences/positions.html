@@ -152,7 +152,7 @@
                 {{ with $position.designation }}
                 <h5 class="mb-2">{{ . }}</h5>
                 {{ end }}
-                <span class="text-muted ms-auto">
+                <span class="text-muted small">
                 {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
                 </span>
             </div>
