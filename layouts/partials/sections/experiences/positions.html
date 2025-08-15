@@ -18,7 +18,7 @@
             <!-- <p class="text-muted">
                 {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
             </p> -->
-            <p class="text-muted">
+            <p class="text-muted ml-2">
             <i class="fa-solid fa-location-dot"></i> {{ .company.location }}
         </p>
         </div>
@@ -98,7 +98,7 @@
         <div class="company-heading">
             {{/* Project title — accent (same as links) */}}
             {{ with $position.project }}
-                <div class="h4 font-semibold mt-1">{{ . }}</div>
+                <div class="h3 font-semibold">{{ . }}</div>
             {{ end }}
 
             {{/* Department + date on one line */}}
