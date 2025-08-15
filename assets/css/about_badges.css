@@ -1,39 +1,40 @@
-/* Make the badge area a neat grid */
+/* Make the badges lay out nicely */
+.about-section .certificate-badges,
 .about-section .badges {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
-  gap: 16px;
-  align-items: center;
-  justify-items: center;
-}
-
-/* Give each badge a consistent box */
-.about-section .badges a {
-  width: 160px;           /* box width */
-  height: 90px;           /* box height */
   display: flex;
-  align-items: center;
+  flex-wrap: wrap;
+  gap: 16px;
   justify-content: center;
 }
 
-/* Scale each logo to fit the box without distortion */
-.about-section .badges img {
-  max-width: 150px;       /* never exceed the box width */
-  max-height: 80px;       /* never exceed the box height */
-  width: auto;
+/* Give every badge a same-sized box */
+.about-section .certificate-badge {
+  width: 160px;          /* tweak if you want bigger/smaller */
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 !important; /* override theme's extra padding on tiny screens */
+}
+
+/* Fit the logo inside that box without stretching */
+.about-section .certificate-badge img {
+  max-height: 64px;      /* makes all logos feel equal */
+  max-width: 150px;
   height: auto;
-  object-fit: contain;    /* preserve aspect ratio, no cropping */
+  width: auto;
+  object-fit: contain;   /* keeps aspect ratio, no cropping */
   display: block;
 }
 
-/* Optional: slightly bigger on large screens */
+/* Optional: a little upscale on big screens */
 @media (min-width: 992px) {
-  .about-section .badges a {
+  .about-section .certificate-badge {
     width: 180px;
     height: 100px;
   }
-  .about-section .badges img {
+  .about-section .certificate-badge img {
+    max-height: 72px;
     max-width: 170px;
-    max-height: 90px;
   }
 }
