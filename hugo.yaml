@@ -59,7 +59,7 @@ enableEmoji: true
 params:
   customCSS: /assets/css/about_badges.css
   # Background image of the landing page
-  background: "/images/site/Final 2.0.jpg"
+  background: "/images/site/web_bg.jpg"
   # Background image of the landing page for dark theme
   # darkBackground: /images/site/background.jpg
 
@@ -307,4 +307,4 @@ params:
 
     # Show/hide disclaimer notice in the footer. Default is "false".
     disclaimer:
-      enable: true
+      enable: false
