@@ -76,42 +76,42 @@ badges:
 - type: certification
   name: tensorflow
   url:  "https://www.tensorflow.org/"
-  badge: "files/badges/TensorFlow.png" # didn't work
+  badge: "/files/badges/tensorflow-seeklogo.com.svg"
 
 - type: certification
   name: opencv
   url:  "https://opencv.org/"
-  badge: "https://www.vectorlogo.zone/logos/tensorflow/tensorflow-icon.svg"
+  badge: "/files/badges/opencv.svg"
 
 - type: certification
   name: postgres
   url:  "https://pytorch.org/"
-  badge: "/files/badges/tensorflow-seeklogo.com.svg" # works really well!
+  badge: "files/badges/postgresql-original-wordmark.svg"
 
 - type: certification
   name: flask
   url:  "https://pytorch.org/"
-  badge: "https://www.vectorlogo.zone/logos/postgresql/postgresql-vertical.svg" # worked
+  badge: "files/badges/flask.svg"
 
 - type: certification
   name: react
   url:  "https://pytorch.org/"
-  badge: "files/badges/postgresql-original-wordmark.svg"
+  badge: "files/badges/react-original-wordmark.svg"
 
 - type: certification
   name: gcp
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "files/badges/google-cloud.svg"
 
 - type: certification
   name: aws
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "files/badges/amazon-web-services-4.svg"
 
 - type: certification
   name: jira
   url:  "https://pytorch.org/"
-  badge: "https://i.imgur.com/WZUj67T.png"
+  badge: "files/badges/jira-original-wordmark.svg"
 
 
 
