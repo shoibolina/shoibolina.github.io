@@ -130,7 +130,7 @@
         <div class="company-heading">
             {{/* Project title — big, same accent color as links */}}
             {{ with $position.project }}
-                <h2 class="h3 fw-semibold mb-2">{{ . }}</h2>
+                <h2 class="h3 font-semibold mb-2">{{ . }}</h2>
             {{ end }}
 
             {{/* Company (link) + location on the same line, with a little space */}}
@@ -148,9 +148,9 @@
             </div>
 
             {{/* Designation (left) + dates (right) on one row */}}
-            <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-3 mb-2">
+            <div class="d-flex justify-content-between align-items-baseline flex-wrap gap-1 mb-2">
                 {{ with $position.designation }}
-                <h5 class="mb-0">{{ . }}</h5>
+                <h5 class="mb-2">{{ . }}</h5>
                 {{ end }}
                 <span class="text-muted ms-auto">
                 {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
