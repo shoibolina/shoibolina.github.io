@@ -1,0 +1,39 @@
+/* Make the badge area a neat grid */
+.about-section .badges {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 16px;
+  align-items: center;
+  justify-items: center;
+}
+
+/* Give each badge a consistent box */
+.about-section .badges a {
+  width: 160px;           /* box width */
+  height: 90px;           /* box height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Scale each logo to fit the box without distortion */
+.about-section .badges img {
+  max-width: 150px;       /* never exceed the box width */
+  max-height: 80px;       /* never exceed the box height */
+  width: auto;
+  height: auto;
+  object-fit: contain;    /* preserve aspect ratio, no cropping */
+  display: block;
+}
+
+/* Optional: slightly bigger on large screens */
+@media (min-width: 992px) {
+  .about-section .badges a {
+    width: 180px;
+    height: 100px;
+  }
+  .about-section .badges img {
+    max-width: 170px;
+    max-height: 90px;
+  }
+}
