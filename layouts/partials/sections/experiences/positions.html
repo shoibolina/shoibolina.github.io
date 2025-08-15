@@ -28,7 +28,7 @@
     <!-- Add the positions information -->
     <div class="positions">
     {{ range $index,$position:= .positions }}
-        <div class="company-heading">
+        <!-- <div class="company-heading">
 
             {{ with $position.project }}
                 <div class="h5 font-semibold mt-1">{{ . }}</div>
@@ -41,7 +41,34 @@
 
             <h5 class="designation">{{ $position.designation }}</h5>
             
+        </div> -->
+
+        <div class="company-heading">
+            {{/* Project title – big and accent color */}}
+            {{ with $position.project }}
+                <div class="h3 text-info font-semibold mb-1">{{ . }}</div>
+            {{ end }}
+
+            {{/* Department + dates on the same row */}}
+            {{ if or $position.department $position.start }}
+                <div class="d-flex flex-wrap align-items-baseline">
+                {{ with $position.department }}
+                    <div class="text-secondary mr-3">{{ . }}</div>
+                {{ end }}
+
+                <div class="text-muted small">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div>
+                </div>
+            {{ end }}
+
+            {{/* Designation – separate color */}}
+            {{ with $position.designation }}
+                <h5 class="designation text-warning mt-1 mb-2">{{ . }}</h5>
+            {{ end }}
         </div>
+
+
         <!-- Add the responsibilities handled at this position -->
         {{ if $position.responsibilities }}
             <h6 class="text-heading">{{ i18n "responsibilities" }}</h6>
