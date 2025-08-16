@@ -101,3 +101,20 @@ experiences:
     - Collaborated with Division of Physical Therapy in a 4-person team to develop a cost-effective, marker-less classification model for gait features to enable healthcare professionals to monitor mobility changes and detect early signs of gait abnormalities
     - Generated biomarker keypoint datasets from over 300 mobile phone videos (~250 GB) using Python, and implemented ETL processes to prepare data for machine learning, achieving 91% classification accuracy on the best model
     - Stored and managed the generated keypoint data on the department’s high-performance computing cluster, enabling scalable ccess and streamlined processing for subsequent analysis workflows
+
+- company:
+    name: Department of Computer Science & Engg., Manipal Institute of Technology
+    url: "https://ecds.emory.edu/"
+    location: Manipal, KA, India
+    # company overview
+  positions:
+    # project title
+  - designation: Undergraduate Research Assistant
+    project: Gait classification using Mobile Phone Videos
+    department: Department of Computer Science and Engineering
+    start: Aug 2021
+    end: Dec 2023
+    responsibilities:
+    - Developed a lightweight, integrable machine learning model achieving 97.46% accuracy for classifying EEG signals into seizure, inter-ictal, and normal states, with a short runtime of 2.9 minutes
+    - Spearheaded an interdisciplinary project predicting diabetic patient treatment costs by analyzing over 500 patient records and building a wrapper-based classification model with 96% accuracy using Python libraries
+    - Coded a Go-based algorithm to calculate farmer credit scores within a blockchain framework, supporting faster agro-financing decisions for producers in South India

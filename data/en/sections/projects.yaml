@@ -3,63 +3,79 @@ section:
   name: Projects
   id: projects
   enable: true
-  weight: 5
+  weight: 4
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
 
 # filter buttons
-buttons:
-- name: All
-  filter: "all"
-- name: Professional
-  filter: "professional"
-- name: Academic
-  filter: "academic"
-- name: Hobby
-  filter: "hobby"
+# buttons:
+# - name: All
+#   filter: "all"
+# - name: Professional
+#   filter: "professional"
+# - name: Academic
+#   filter: "academic"
+# - name: Hobby
+#   filter: "hobby"
 
 # your projects
 projects:
-- name: Kubernetes
-  logo: /images/sections/projects/kubernetes.png
-  role: Contributor
-  timeline: "March 2018 - Present"
-  repo: https://github.com/kubernetes/kubernetes # If your project is a public repo on GitHub, then provide this link. it will show star count.
-  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
-  summary: Production-Grade Container Scheduling and Management.
-  tags: ["professional", "kubernetes", "cloud"]
-
-- name: Tensorflow
-  logo: /images/sections/projects/tensorflow.png
+- name: Global Burden of Diseases dashboard
+  # logo: /images/sections/projects/d3js.svg
+  image: /images/sections/projects/gbd-demo.gif
   role: Developer
-  timeline: "Jun 2018 - Present"
-  repo: https://github.com/tensorflow/tensorflow
-  #url: ""
-  summary: An Open Source Machine Learning Framework for Everyone.
-  tags: ["professional", "machine-learning"]
+  timeline: "May 2025"
+  url: https://github.com/shoibolina/GBD-dashboard # If your project is a public repo on GitHub, then provide this link. it will show star count.
+  #url: ""  # If your project is not a public repo but it has a website or any external details url then provide it here. don't provide "repo" and "url" simultaneously.
+  summary:  An interactive choropleth dashboard with D3.js to visualize global DALY rates.
+  tags: ["D3.js", "Python", "Data Visualization"]
 
-- name: A sample academic paper
-  role: Team Lead
-  timeline: "Jan 2017 - Nov 2017"
-  url: "https://www.example.com"
-  summary: Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente eius reprehenderit animi suscipit autem eligendi esse amet aliquid error eum. Accusantium distinctio soluta aliquid quas placeat modi suscipit eligendi nisi.
-  tags: ["academic","iot"]
+- name: Upnext- Events and Venues management App
+  # logo: /images/sections/projects/tensorflow.png
+  role: Team Lead, Developer, Contributor
+  timeline: "Mar 2025 - Apr 2025"
+  url: https://github.com/shoibolina/UpNext
+  summary: A dedicated platform that integrates event creation, discovery, and venue booking in one cohesive ecosystem.
+  tags: ["Django", "React", "PostgreSQL", "Web sockets", "REST APIs", "CI/CD", "Atlassian Jira", "Agile Scrum"]
 
-- name: Nocode
-  logo: /images/sections/projects/no-code.png
-  role: Nothing
-  timeline: "Oct 2019 - Dec 2019"
-  repo: https://github.com/kelseyhightower/nocode
-  #url: ""
-  summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
-  tags: ["hobby", "fun"]
+# - name: Mini File Storage System 
+#   logo: /images/sections/projects/no-code.png
+#   role: Developer
+#   timeline: "Nov 2024"
+#   # repo: https://github.com/kelseyhightower/nocode
+#   #url: ""
+#   summary: The best way to write secure and reliable applications. Write nothing; deploy nowhere.
+#   tags: ["Flask", "SQLite", "REST APIs", "File systems"]
 
-- name: Toha
-  logo: /images/sections/projects/toha.png
-  image: /images/sections/projects/toha_website.png
-  role: Owner
-  timeline: "Jun 2019 - Present"
-  repo: https://github.com/hossainemruz/toha
-  summary: A Hugo theme for personal portfolio.
-  tags: ["hobby","hugo","theme","professional"]
+- name: Biomedical Question Answering System
+  # logo: /images/sections/projects/toha.png
+  image: /images/sections/projects/biomed_qa.png
+  role: Owner, Developer
+  timeline: "Oct 2024 - Dec 2024"
+  url: https://huggingface.co/spaces/lina-k/CS571-qa-system
+  summary: A RAG style biomedical question-answering system leveraging PubMedBERT, fine-tuned on the BC5CDR dataset, achieving an F1 Score of 62% and an Exact Match score of 48% in extracting chemical-disease relationships
+  tags: ["RAG","TF-IDF","PubMedBERT","BC5DR", "Gradio"]
+
+- name: Synthetic iEEG Data Production for Epilepsy Analysis
+  image: /images/sections/projects/synthetic_eeg.png
+  role: Contributor
+  timeline: "Oct 2023 - Dec 2023"
+  url: https://github.com/arberetum/synthetic_eeg
+  summary: Addresses data scarcity challenges in Electroencephalograpy (EEG) research and enhance the performance of classification models through the incorporation of synthetic data.
+  tags: ["Flask-JWT", "SQLAlchemy", "PostgreSQL", "Google Cloud Platform", "ESLint"]
+
+- name: NYTimes-mining
+  image: /images/sections/projects/word-cloud3.png
+  role: Developer
+  timeline: "Feb 2025"
+  url: https://github.com/shoibolina/NYTimes-mining
+  summary: A NYTimes mining pipeline that processed 100+ articles by leveraging Python (NLTK, spaCy, sklearn) to perform NER, execute NMF topic modeling, and cluster articles into 5 groups, synthesizing insights via word cloud visualizations 
+  tags: ["Flask-JWT", "SQLAlchemy", "PostgreSQL", "Google Cloud Platform", "ESLint"]
+
+- name: Movie Review WebApp
+  role: Developer
+  timeline: "Feb 2025"
+  url: https://github.com/cs540-s25/milestone3-skaush7
+  summary: A web app that has a signup/login system that randomly displays one of my favorite movies and allows user to provide reviews and ratings, while also viewing others' reviews.
+  tags: ["Flask-JWT", "SQLAlchemy", "PostgreSQL", "Google Cloud Platform", "ESLint"]
