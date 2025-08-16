@@ -1,0 +1,13 @@
+section:
+  name: "Everything is related to everything else, but near things are more related than distant things"
+  id: quotes
+  enable: true
+  weight: 9
+  showOnNavbar: false
+  hideTitle: true  # we render the quote itself, not a section title
+
+# Optional: keep quotes as a list so you can rotate later
+quotes:
+  - text: "Everything is related to everything else, but near things are more related than distant things"
+    author: "Waldo Tobler"
+  

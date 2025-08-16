@@ -1,0 +1,66 @@
+<div class="container-fluid anchor py-5 quotes-section">
+  {{/* Prefer the first item in quotes[], fall back to section.name */}}
+  {{ $q := "" }}
+  {{ with .quotes }}{{ $q = (index . 0).text }}{{ end }}
+  {{ if not $q }}{{ $q = .section.name }}{{ end }}
+
+  <!-- Quote line -->
+  <h2 class="quote-text text-center m-0">{{ $q }}</h2>
+
+  <!-- Author (optional) -->
+  {{ with .quotes }}
+    {{ with (index . 0).author }}
+      <div class="quote-author text-center mt-3">— {{ . }}</div>
+    {{ end }}
+  {{ end }}
+</div>
+
+<style>
+  /* Scope everything to this section so it won't affect the rest of the site */
+  .quotes-section{
+    max-width: 1200px;
+    margin-inline: auto;
+  }
+
+  /* Quote text: italic, smaller, with curly quotes automatically */
+  .quotes-section .quote-text{
+    font-style: italic;                 /* “cursive” feel without extra fonts */
+    font-weight: 400;
+    line-height: 1.35;
+    font-size: clamp(1.25rem, 2.2vw, 2rem);  /* responsive, smaller than display-5 */
+    position: relative;
+  }
+  .quotes-section .quote-text::before,
+  .quotes-section .quote-text::after{
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.25em;                  /* a bit larger than the text */
+    line-height: 0;
+    position: relative;
+  }
+  .quotes-section .quote-text::before{ content:"“"; margin-right:.15em; }
+  .quotes-section .quote-text::after { content:"”"; margin-left:.1em; }
+
+  /* Author: slightly larger than default, still subtle */
+  .quotes-section .quote-author{
+    font-size: clamp(0.95rem, 1.2vw, 1.125rem);
+    font-weight: 500;
+    opacity: .85;
+  }
+</style>
+
+
+<!-- <div class="container-fluid anchor py-5 quotes-section">
+  {{/* Prefer the first item in quotes[], fall back to section.name */}}
+  {{ $q := "" }}
+  {{ with .quotes }}{{ $q = (index . 0).text }}{{ end }}
+  {{ if not $q }}{{ $q = .section.name }}{{ end }}
+
+  <blockquote class="text-center display-5 fw-medium m-0">{{ $q }}</blockquote>
+
+  {{ with .quotes }}
+    {{ with (index . 0).author }}
+      <div class="text-center text-muted mt-2">— {{ . }}</div>
+    {{ end }}
+  {{ end }}
+</div> -->
