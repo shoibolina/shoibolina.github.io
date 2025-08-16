@@ -92,7 +92,7 @@ badges:
 - type: certification
   name: flask
   url:  "https://flask.palletsprojects.com/en/stable/"
-  badge: "files/badges/rsz2/flask-rsz.svg"
+  badge: "files/badges/rsz2/flask.svg"
 
 - type: certification
   name: react
