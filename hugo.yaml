@@ -59,7 +59,7 @@ enableEmoji: true
 params:
   customCSS: /assets/css/about_badges.css
   # Background image of the landing page
-  background: "/images/site/bg_9.jpg"
+  background: "/images/site/bg_10.jpg"
   # Background image of the landing page for dark theme
   # darkBackground: /images/site/background.jpg
 
