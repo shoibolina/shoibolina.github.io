@@ -84,11 +84,6 @@ badges:
   badge: "files/badges/rsz3/postgresql-original-wordmark.svg"
 
 - type: certification
-  name: opencv
-  url:  "https://opencv.org/"
-  badge: "/files/badges/rsz3/opencv.svg"
-
-- type: certification
   name: aws
   url:  "https://aws.amazon.com/"
   badge: "files/badges/rsz3/amazon-web-services-1.svg"
@@ -99,19 +94,24 @@ badges:
   badge: "files/badges/rsz3/react-original-wordmark.svg"
 
 - type: certification
+  name: opencv
+  url:  "https://opencv.org/"
+  badge: "/files/badges/rsz3/opencv.svg"
+
+- type: certification
   name: jira
   url:  "https://www.atlassian.com/software/jira"
   badge: "files/badges/rsz3/jira-original-wordmark.svg"
 
 - type: certification
-  name: gcp
-  url:  "https://cloud.google.com/"
-  badge: "files/badges/rsz3/google-cloud.svg"
-
-- type: certification
   name: flask
   url:  "https://flask.palletsprojects.com/en/stable/"
   badge: "files/badges/rsz3/flask.svg"
+
+- type: certification
+  name: gcp
+  url:  "https://cloud.google.com/"
+  badge: "files/badges/rsz3/google-cloud.svg"
 
 
 
