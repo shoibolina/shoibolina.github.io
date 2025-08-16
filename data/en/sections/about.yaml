@@ -82,12 +82,12 @@ badges:
 - type: certification
   name: postgres
   url:  "https://www.postgresql.org/"
-  badge: "files/badges/postgresql-original-wordmark.svg"
+  badge: "files/badges/rsz/postgresql-original-wordmark.svg"
 
 - type: certification
   name: opencv
   url:  "https://opencv.org/"
-  badge: "/files/badges/opencv.svg"
+  badge: "/files/badges/rsz/opencv.svg"
 
 - type: certification
   name: flask
@@ -97,22 +97,22 @@ badges:
 - type: certification
   name: react
   url:  "https://react.dev/"
-  badge: "files/badges/react-original-wordmark.svg"
+  badge: "files/badges/rsz/react-original-wordmark.svg"
 
 - type: certification
   name: gcp
   url:  "https://cloud.google.com/"
-  badge: "files/badges/google-cloud.svg"
+  badge: "files/badges/rsz/google-cloud.svg"
 
 - type: certification
   name: aws
   url:  "https://aws.amazon.com/"
-  badge: "files/badges/amazon-web-services-1.svg"
+  badge: "files/badges/rsz/amazon-web-services-1.svg"
 
 - type: certification
   name: jira
   url:  "https://www.atlassian.com/software/jira"
-  badge: "files/badges/jira-original-wordmark.svg"
+  badge: "files/badges/rsz/jira-original-wordmark.svg"
 
 
 
