@@ -1,9 +1,9 @@
 # section information
 section:
-  name: Accomplishments
+  name: Awards & Achievements
   id: accomplishments
   enable: true
-  weight: 9
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -12,11 +12,13 @@ section:
 # Your accomplishments
 accomplishments:
 - name: Poster Competition Winner
+  image: best_poster_award_post.jpg
   timeline: "April 2024"
   organization:
     name: BioSTAR AI Symposium
     url: https://www.linuxfoundation.org
-  courseOverview: 3rd prize, organized by Gtech-Emory University, for the poster titled "Classifying gait...".
+  courseOverview: 3rd prize, organized by Gtech-Emory University, for the poster titled "Classifying gait...". lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed massa feugiat, ornare justo et, aliquam est. Pellentesque ut fringilla magna. lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed massa feugiat, ornare justo et, aliquam est. Pellentesque ut fringilla magna.
+  certificateURL: "https://example.com"
   # certificateURL: "https://example.com"
 
 # - name: Linux Foundation System Administrator

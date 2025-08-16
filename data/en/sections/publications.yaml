@@ -16,8 +16,8 @@ buttons:
   filter: "machinelearning"
 - name: "Image Processing"
   filter: "image-processing"
-- name: Security
-  filter: "security"
+- name: Blockchain
+  filter: "blockchain"
 
 # your publications
 publications:

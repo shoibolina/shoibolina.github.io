@@ -57,10 +57,14 @@ socialLinks:
   icon: "fab fa-researchgate"
   url: "https://www.researchgate.net/profile/Shoibolina-Kaushik/"
 
+- name: ORCiD
+  icon: "fab fa-orcid"
+  url: "https://orcid.org/0000-0003-0885-3836"
+
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "My Resume"
+- title: "View CV"
   url: "files/Resume202507141001.pdf"
 
 # Show your badges
