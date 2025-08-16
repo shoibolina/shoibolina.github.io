@@ -19,16 +19,18 @@ company:
 # resume: "files/Resume202507141001.pdf"
 
 # a summary about you
-summary: "As a Machine Learning and Artificial Intelligence enthusiast with over 5 years of academic research experience applying advanced models to solve real-world problems across interdisciplinary domains. Recently graduated with Master of Science in Computer Science at Emory University (GPA: 3.72/4.0), I have honed skills in developing scalable models, building robust data pipelines, and delivering actionable insights. 
- \n Let's connect and discuss potential collaborations!"
+summary: |-
+    My journey in AI began with a strong foundation in machine learning algorithms and data analysis, which I have applied to real-world problems. I have experience in developing and deploying machine learning models, optimizing algorithms for performance, and implementing scalable solutions. My work has involved collaborating with cross-functional teams to deliver impactful results, whether it's improving healthcare outcomes or enhancing user experiences through intelligent systems.
+    
+    I am proficient in Python, R, SQL, and cloud platforms like AWS and GCP, combined with hands-on experience with TensorFlow, PyTorch, and scikit-learn. In addition to my technical skills, I bring strong communication and teamwork abilities, having led cross-functional teams and presented research findings at conferences. I am passionate about leveraging AI to drive innovation and create meaningful solutions.
+
+    As a lifelong learner, I am committed to staying at the forefront of AI advancements and continuously expanding my expertise. 
+    
+    Let's connect and discuss potential collaborations!
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
 socialLinks:
-# - name: Email
-#   icon: "fas fa-envelope"
-#   url: "shoibolina.kaushik@gmail.com"
-
 - name: Github
   icon: "fab fa-github"
   url: "https://www.github.com/shoibolina"
@@ -61,6 +63,15 @@ socialLinks:
 - name: ORCiD
   icon: "fab fa-orcid"
   url: "https://orcid.org/0000-0003-0885-3836"
+
+- name: Google Scholar
+  icon: "fas fa-graduation-cap"
+  url: https://scholar.google.com/citations?hl=en&user=sFeRO-4AAAAJ
+  
+- name: Email
+  icon: "fas fa-envelope"
+  url: "shoibolina.kaushik@gmail.com"
+  
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.

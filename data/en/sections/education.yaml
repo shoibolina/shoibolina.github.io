@@ -4,7 +4,7 @@ section:
   id: education
   template: sections/education.html # Use "sections/education-alt.html for alternate template.
   enable: true
-  weight: 7
+  weight: 6
   showOnNavbar: true
   # Can optionally hide the title in sections
   # hideTitle: true
@@ -22,7 +22,7 @@ degrees:
     outOf: 4
   extracurricularActivities: #(optional)
   - Secretary, OpenBMI Outreach club, official outreach of the Biomedical Informatics program at Emory University.
-  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
+  - ECDS digital journal publisher
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
 
@@ -39,9 +39,9 @@ degrees:
     outOf: 10
   extracurricularActivities: #(optional)
   - 100 hours of community service as a volunteer at the Rotaract Club of Manipal.
-  # - Vestibulum consectetur lorem justo, at laoreet lorem feugiat et.
-  # - Duis sed massa feugiat, ornare justo et, aliquam est.
-  # - Pellentesque ut fringilla magna.
+  - Dir Spons., rtrct manipal
+  - bharat sports 
+  - tedx manipal climate change volunteer
 
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
