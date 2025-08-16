@@ -12,71 +12,78 @@ section:
 buttons:
 - name: All
   filter: "all"
-- name: "Machine Learning"
-  filter: "machinelearning"
-- name: "Image Processing"
-  filter: "image-processing"
-- name: Blockchain
-  filter: "blockchain"
+- name: "Journal"
+  filter: "journal"
+- name: "Conference"
+  filter: "conf"
+# - name: Blockchain
+#   filter: "blockchain"
 
 # your publications
 publications:
-- title: An Example Paper on Machine Learning
+- title: "Unveiling the epilepsy enigma: an agile and optimal machine learning approach for detecting inter-ictal state from electroencephalogram signals"
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: International Journal of Information Technology
+    date: "2024"
+    url: https://link.springer.com/journal/41870
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Shoibolina Kaushik
+    url: https://scholar.google.com/citations?user=sFeRO-4AAAAJ&hl=en
+  - name: Dr. Mamatha Balachandra
+    url: https://scholar.google.com/citations?user=mct_H0kAAAAJ&hl=en
+  - name: Dr. Diana Olivia
+    url: https://scholar.google.com/citations?user=r8qIdp4AAAAJ&hl=en
+  - name: Zaid Khan
+    url: https://scholar.google.com/citations?user=SE89JWsAAAAJ&hl=en
   paper:
-    summary: Voluptate in id id voluptate laboris. Minim mollit aliquip sit aliqua ut exercitation voluptate eiusmod consequat pariatur sunt enim veniam. Velit esse tempor laboris anim tempor officia. Magna non labore duis do esse sit do ipsum culpa. Officia consequat id non duis culpa dolor. Excepteur magna non nostrud cupidatat aute aliqua aliquip.
-    url: https://example.com
-  categories: ["machinelearning","image-processing"]
-  tags: ["Machine Learning", "Autonomous Driving", "Computer Vision"]
+    summary: This study presents an agile and optimal machine learning approach for detecting inter-ictal states from electroencephalogram (EEG) signals, aiming to enhance epilepsy diagnosis and management. By leveraging advanced feature extraction techniques and a robust classification algorithm, the proposed method achieves high accuracy in identifying inter-ictal patterns, which are crucial for understanding seizure dynamics. The model's performance is validated on a comprehensive EEG dataset, demonstrating its potential for real-world clinical applications. This research contributes to the growing field of AI-driven healthcare solutions, offering a promising tool for clinicians in the fight against epilepsy.
+    url: https://doi.org/10.1007/s41870-024-02078-4
+  categories: ["journal"]
+  tags: ["Cited by 3"]
 
-- title: An Sample Paper on Image Processing
+- title: Blockchain Framework for Agro Financing of Farmers in South India
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: Communications in Computer and Information Science
+    date: "2022"
+    url: https://link.springer.com/book/10.1007/978-3-031-07012-9
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: Dr. Namrata Marium Chacko
+    url: https://scholar.google.com/citations?user=bV9yHYYAAAAJ&hl=en
+  - name: Dr. V. G. Narendra
+    url: https://scholar.google.com/citations?user=ymlV-u8AAAAJ&hl=en
+  - name: Dr. Mamatha Balachandra
+    url: https://scholar.google.com/citations?user=mct_H0kAAAAJ&hl=en
+  - name: Shoibolina Kaushik
+    url: https://scholar.google.com/citations?user=sFeRO-4AAAAJ&hl=en
   paper:
-    summary: Ullamco magna minim cupidatat Lorem ea ex aliqua fugiat et. Dolor quis cillum ea duis irure et commodo aliquip consectetur ullamco labore ut anim nisi. Commodo reprehenderit est consectetur tempor adipisicing occaecat exercitation amet do aliquip dolor do irure. Labore officia ut magna pariatur reprehenderit et ex sit sunt. Magna proident ullamco adipisicing sit.
-    url: https://example.com
-  categories: ["image-processing"]
-  tags: ["Image Processing", "Computer Vision"]
+    summary: A novel blockchain framework is proposed in this paper to facilitate agro financing for farmers in South India. The framework leverages the inherent properties of blockchain technology, such as decentralization, transparency, and immutability, to create a secure and efficient platform for managing agricultural loans and transactions. By utilizing smart contracts, the framework automates the loan approval process, ensuring that farmers receive timely access to funds while minimizing the risk of fraud and default. The proposed solution aims to empower farmers by providing them with greater financial inclusion and reducing their dependence on traditional lending institutions.
+    url: https://doi.org/10.1007/978-3-031-07012-9_56
+  categories: ["conf"]
+  # tags: ["Blockchain", "GoLang"]
+  tags: ["Cited by 2"]
 
-- title: An Example Paper on Security
+- title: Classifying Simulated Gait Impairments using Privacy-preserving Explainable Artificial Intelligence and Mobile Phone Videos
   publishedIn:
-    name: 2020 IEEE Region Symposium (TENSYMP)
-    date: 7 June 2020
-    url: https://example.com
+    name: manuscript under review by PLOS Digital Health
+    date: "2025"
+    url: https://journals.plos.org/digitalhealth/
   authors:
-  - name: Dr. Madman
-    url: https://example.com
-  - name: Dr. Lessmad
-    url: https://example.com
-  - name: Dr. Moremad
-    url: https://example.com
-  - name: Dr. Goodman
-    url: https://example.com
+  - name: L. Reddy
+    url: ""
+  - name: Ketan Anand
+    url: ""
+  - name: Shoibolina Kaushik
+    url: https://scholar.google.com/citations?user=sFeRO-4AAAAJ&hl=en
+  - name: Corey Rodrigo
+    url: ""
+  - name: Dr. J. Lucas McKay
+    url: https://scholar.google.com/citations?user=NqacUroAAAAJ&hl=en
+  - name: Dr. Trisha M. Kesar
+    url: https://scholar.google.com/citations?user=XGeoj30AAAAJ&hl=en&oi=ao
+  - name: Dr. H. Kwon
+    url: ""
   paper:
-    summary: Dolor ad cupidatat pariatur nulla ipsum ex ullamco nisi anim ullamco. Dolore elit esse in exercitation minim aliqua. Amet velit incididunt magna laboris. Proident reprehenderit deserunt ad officia duis dolor. Tempor nostrud ullamco ullamco sint deserunt cupidatat irure minim consectetur nulla adipisicing sunt.
-    url: https://example.com
-  categories: ["security"]
-  tags: ["Machine Learning", "Autonomous Driving", "Machine Vision"]
+    summary: Gait impairments are prevalent in various neurological and musculoskeletal conditions, significantly affecting individuals' mobility and quality of life. This study presents a novel approach to classify simulated gait impairments using privacy-preserving explainable artificial intelligence (XAI) techniques applied to mobile phone video data. By leveraging advanced machine learning algorithms, the proposed method accurately identifies different types of gait abnormalities while ensuring user privacy through federated learning and differential privacy mechanisms. The explainability aspect of the model provides insights into the decision-making process, enhancing trust and interpretability for clinicians and patients alike. The results demonstrate the potential of this approach in remote health monitoring and rehabilitation, paving the way for accessible and effective gait analysis solutions.
+    url: https://arxiv.org/abs/2412.01056
+  categories: ["journal"]
+  # tags: ["Cited by "]

@@ -68,7 +68,7 @@ projects:
 - name: NYTimes-mining
   image: /images/sections/projects/word-cloud3.png
   role: Developer
-  timeline: "Feb 2025"
+  timeline: "Mar 2025"
   url: https://github.com/shoibolina/NYTimes-mining
   summary: A NYTimes mining pipeline that processed 100+ articles to synthesizing insights through clusters by word cloud visualizations
   tags: ["NLTK", "spaCy", "Named Entity Recognition", "Word Cloud Visualisations", "AI/ML"]

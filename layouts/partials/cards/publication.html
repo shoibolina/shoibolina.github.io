@@ -1,0 +1,84 @@
+{{ $dataCategories:= slice "pub-all"}}
+{{ range .categories}}
+  {{ $dataCategories = $dataCategories | append (printf "pub-%s" .)}}
+{{end}}
+
+<style>
+  /* Use one class for both linked and non-linked author names */
+  .pub-authors .pub-link,
+  .pub-authors .pub-link:visited {
+    color: var(--bs-info) !important;        /* same bright color for all */
+  }
+
+  /* Kill all underline effects the theme might add */
+  .pub-authors .pub-link {
+    text-decoration: none !important;
+    border-bottom: 0 !important;
+    background-image: none !important;
+    box-shadow: none !important;
+  }
+
+  /* Underline ONLY your name (works on <a> or <span>) */
+  .pub-authors .pub-link.me {
+    text-decoration: underline !important;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 2px;
+    font-weight: 600;
+  }
+</style>
+
+<div
+  class="col-12 p-2 pub-filtr-item"
+  data-category='{{ delimit $dataCategories ","}}'
+>
+  <div class="card mt-3">
+    <div class="card-header">
+      <h5 class="card-title mb-0">{{ .title }}</h5>
+
+      <div class="sub-title">
+        <span>
+          {{ if .publishedIn.url }}
+            <a href="{{ .publishedIn.url }}">{{ .publishedIn.name }}</a>
+          {{ else }}
+            <a>{{ .publishedIn.name }}</a>
+          {{ end }}
+        </span>
+        <span class="ms-2">{{ .publishedIn.date }}</span>
+      </div>
+         <!-- AUTHORS -->
+          <div class="authors pub-authors">
+            {{ range $i, $author := .authors }}
+              {{ $isMe := in (lower $author.name) "shoibolina" }}
+              <span class="me-2">
+                {{ if $author.url }}
+                  <!-- put the 'me' class ON the link itself -->
+                  <a class="pub-link {{ if $isMe }}me{{ end }}"
+                    href="{{ $author.url }}" target="_blank" rel="noopener">{{ $author.name }}</a>
+                {{ else }}
+                  <!-- no URL: render as span but with the same pub-link class -->
+                  <span class="pub-link {{ if $isMe }}me{{ end }}">{{ $author.name }}</span>
+                {{ end }}
+              </span>
+            {{ end }}
+          </div>
+          <!-- /AUTHORS -->
+    </div>
+
+    <div class="card-body">
+      <p>{{ .paper.summary | markdownify }}</p>
+    </div>
+
+    <div class="card-footer">
+      <div class="tags">
+        {{ range $i,$tag := .tags }}
+          <span class="btn badge btn-info ms-1 p-2">{{ $tag }}</span>
+        {{ end }}
+      </div>
+      {{ if .paper.url }}
+        <div class="details-btn">
+          <a class="btn btn-outline-info ms-1 ps-2 mb-2" href="{{ .paper.url }}" target="_blank" rel="noopener" role="button">{{ i18n "project_details"}}</a>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
