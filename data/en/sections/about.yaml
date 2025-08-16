@@ -107,7 +107,7 @@ badges:
 - type: certification
   name: aws
   url:  "https://aws.amazon.com/"
-  badge: "files/badges/amazon_aws-icon.svg"
+  badge: "files/badges/amazon-web-services-1.svg"
 
 - type: certification
   name: jira
