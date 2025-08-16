@@ -66,18 +66,17 @@ resourceLinks:
 # Show your badges
 # You can show your verifiable certificates from https://www.credly.com.
 # You can also show a circular bar indicating the level of expertise on a certain skill
-badges:
+badges:  
+- type: certification
+  name: tensorflow
+  url:  "https://www.tensorflow.org/"
+  badge: "/files/badges/rsz3/tensorflow-seeklogo.com.svg"
+
 - type: certification
   name: pytorch
   url:  "https://pytorch.org/"
   # badge: "https://i.imgur.com/WZUj67T.png"
   badge: "/files/badges/pytorch-plain-wordmark.svg"
-
-  
-- type: certification
-  name: tensorflow
-  url:  "https://www.tensorflow.org/"
-  badge: "/files/badges/rsz3/tensorflow-seeklogo.com.svg"
 
 - type: certification
   name: postgres
@@ -90,9 +89,9 @@ badges:
   badge: "/files/badges/rsz3/opencv.svg"
 
 - type: certification
-  name: flask
-  url:  "https://flask.palletsprojects.com/en/stable/"
-  badge: "files/badges/rsz3/flask.svg"
+  name: aws
+  url:  "https://aws.amazon.com/"
+  badge: "files/badges/rsz3/amazon-web-services-1.svg"
 
 - type: certification
   name: react
@@ -100,14 +99,14 @@ badges:
   badge: "files/badges/rsz3/react-original-wordmark.svg"
 
 - type: certification
+  name: flask
+  url:  "https://flask.palletsprojects.com/en/stable/"
+  badge: "files/badges/rsz3/flask.svg"
+
+- type: certification
   name: gcp
   url:  "https://cloud.google.com/"
   badge: "files/badges/rsz3/google-cloud.svg"
-
-- type: certification
-  name: aws
-  url:  "https://aws.amazon.com/"
-  badge: "files/badges/rsz3/amazon-web-services-1.svg"
 
 - type: certification
   name: jira
