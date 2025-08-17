@@ -58,7 +58,6 @@ experiences:
   - designation: Research Specialist
     project: GATES Foundation funded Malaria control initiative in Ethiopia
     department: Department of Environmental Sciences
-    # project title: Gates Foundation funded Malaria control initiative in Ethiopia
     start: Jul 2025
     # end: Jul 2026
     # don't provide end date if you are currently working there. It will be replaced by "Present"
@@ -75,7 +74,6 @@ experiences:
     location: Atlanta, GA, USA
     # company overview
   positions:
-    # project title
   - designation: Digital Scholarship Assistant
     project: Extracting road networks from historical maps of Atlanta
     department: Emory Center for Digital Scholarship (ECDS)
@@ -92,7 +90,6 @@ experiences:
     location: Atlanta, GA, USA
     # company overview
   positions:
-    # project title
   - designation: Graduate Research Assistant
     project: Classifying clinical gait disorders from Smartphone Videos
     department: Department of Biomedical Informatics
@@ -109,7 +106,6 @@ experiences:
     location: Manipal, KA, India
     # company overview
   positions:
-    # project title
   - designation: Undergraduate Research Assistant
     project: Applied AI and Blockchain FinTech
     department: Department of Computer Science and Engineering

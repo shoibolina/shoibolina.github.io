@@ -91,7 +91,6 @@ badges:
 - type: certification
   name: pytorch
   url:  "https://pytorch.org/"
-  # badge: "https://i.imgur.com/WZUj67T.png"
   badge: "/files/badges/pytorch-plain-wordmark.svg"
 
 - type: certification
