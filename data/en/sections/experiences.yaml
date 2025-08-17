@@ -65,8 +65,9 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - water bodies
-    - vector det
+    - Supporting design of a deep-learning pipeline on satellite imagery to identify candidate aquatic habitats for vector surveillance
+    - Developing a lightweight detector/tracker to quantify larvae vectors from water samples
+    - Curating datasets, defining labeling and QA guidelines, while maintaining reproducible Python pipelines with version control
 
 - company:
     name: Emory Center for Digital Scholarship, Woodruff Library
@@ -76,8 +77,8 @@ experiences:
   positions:
     # project title
   - designation: Digital Scholarship Assistant
-    project: Road Network Extraction from Historical Atlanta maps
-    department: Emory Center for Digital Scholarship
+    project: Extracting road networks from historical maps of Atlanta
+    department: Emory Center for Digital Scholarship (ECDS)
     start: Jan 2025
     end: May 2025
     responsibilities:
@@ -93,7 +94,7 @@ experiences:
   positions:
     # project title
   - designation: Graduate Research Assistant
-    project: Gait classification using Mobile Phone Videos
+    project: Classifying clinical gait disorders from Smartphone Videos
     department: Department of Biomedical Informatics
     start: Jan 2024
     end: Jul 2024
@@ -110,7 +111,7 @@ experiences:
   positions:
     # project title
   - designation: Undergraduate Research Assistant
-    project: Gait classification using Mobile Phone Videos
+    project: Applied AI and Blockchain FinTech
     department: Department of Computer Science and Engineering
     start: Aug 2021
     end: Dec 2023

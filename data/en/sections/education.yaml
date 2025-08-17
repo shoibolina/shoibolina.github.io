@@ -21,8 +21,9 @@ degrees:
     achieved: 3.72
     outOf: 4
   extracurricularActivities: #(optional)
-  - Secretary, OpenBMI Outreach club, official outreach of the Biomedical Informatics program at Emory University.
-  - ECDS digital journal publisher
+  - Secretary of <a href="https://med.emory.edu/departments/biomedical-informatics/outreach/open-bmi.html"><b>OpenBMI</b>, the official outreach club</a> of the Biomedical Informatics department at Emory- organized events (Atlanta Science Festival, Biomedical Career Panel) to introduce biomedical research to the community while promoting diversity and inclusion in STEM
+  - Digital Publisher at ECDS- Published 25+ WordPress/Elementor articles for <a href="https://www.jhrehab.org/"><b>The Journal of Humanities in Rehabilitation</b></a> and <a href="https://atlantastudies.org/"><b>Atlanta Studies</b></a> reaching 500+ monthly readers, and condensed 4+ hours of R-programming and Git/GitHub workshops into 5 structured learning modules for the ECDS training site
+
   # - Duis sed massa feugiat, ornare justo et, aliquam est.
   # - Pellentesque ut fringilla magna.
 
@@ -38,16 +39,15 @@ degrees:
     achieved: 9.04
     outOf: 10
   extracurricularActivities: #(optional)
-  - 100 hours of community service as a volunteer at the Rotaract Club of Manipal.
-  - Dir Spons., rtrct manipal
-  - bharat sports 
-  - tedx manipal climate change volunteer
+  - Director(Sponsorship) at <a href="https://www.rotary.org/en/get-involved/rotaract-clubs"><b>Rotaract Club</b></a> of Manipal- Spearheaded fundraising efforts for charity events for the academic year 2022-23 while also Directing and organizing impactful initiatives, additionally dedicated 100 hours of community service from 2019-2023
+  - “National Health Fest for Divyangjan – WE CARE” Organized by <a href="https://specialolympicsbharat.org/"><b>Special Olympics</b> Bharat</a> in 2022- Volunteered to promote health awareness for specially-abled children and provided aid for their complete health checkup 
+  - “<a href="https://www.ted.com/tedx/events/41105"><b>TEDxMAHE</b>-Countdown</a>” 2020- Part of management and volunteering at the event to spread awareness on climate change
 
 # - name: Ph.D in Quantum Cryptography
 #   icon: fa-microscope
 #   timeframe: 2016-2020
 #   institution:
-#     name: ABC University of Technology
+#     name: ABC University of Technology 
 #     url: "#"
 #     logo: /images/sections/education/tech_college.png
 #     # Can optionally show a different logo for dark theme

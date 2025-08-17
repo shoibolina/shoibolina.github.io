@@ -40,7 +40,7 @@
     {{ end }}
 
     <div class="card-body">
-      <h5 class="card-title mb-2">{{ .name }}</h5>
+      <h5 class="card-title mt-2 mb-1">{{ .name }}</h5>
 
       <div class="sub-title mb-2">
         {{ with .organization }}
@@ -59,7 +59,7 @@
     {{ if .certificateURL }}
       <div class="card-footer">
         <a class="btn btn-outline-info" href="{{ .certificateURL }}" target="_blank" rel="noopener">
-          {{ i18n "view_certificate" }}
+          {{ i18n "project_details" }}
         </a>
       </div>
     {{ end }}
