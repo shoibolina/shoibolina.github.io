@@ -20,13 +20,11 @@ company:
 
 # a summary about you
 summary: |-
-    My journey in AI began with a strong foundation in machine learning algorithms and data analysis, which I have applied to real-world problems. I have experience in developing and deploying machine learning models, optimizing algorithms for performance, and implementing scalable solutions. My work has involved collaborating with cross-functional teams to deliver impactful results, whether it's improving healthcare outcomes or enhancing user experiences through intelligent systems.
-    
-    I am proficient in Python, R, SQL, and cloud platforms like AWS and GCP, combined with hands-on experience with TensorFlow, PyTorch, and scikit-learn. In addition to my technical skills, I bring strong communication and teamwork abilities, having led cross-functional teams and presented research findings at conferences. I am passionate about leveraging AI to drive innovation and create meaningful solutions.
+    Fascinated by how AI can help us analyse the world's data, I enjoy finding creative ways to piece machine learning with geospatial data!
+    My work has been recognized with Best Poster Award at the BioSTAR AI Symposium 2024, and have contributed to publications in venues such as PLOS Digital Health (forthcoming) and Springer workshops.
 
-    As a lifelong learner, I am committed to staying at the forefront of AI advancements and continuously expanding my expertise. 
-    
-    Let's connect and discuss potential collaborations!
+    Beyond research, I love attending social and networking events that spark fresh perspectives and collaborations!
+
 
 # your social links
 # give as many as you want. use font-awesome for the icons.
@@ -103,25 +101,25 @@ badges:
   url:  "https://aws.amazon.com/"
   badge: "files/badges/rsz3/amazon-web-services-1.svg"
 
-- type: certification
-  name: react
-  url:  "https://react.dev/"
-  badge: "files/badges/rsz3/react-original-wordmark.svg"
+# - type: certification
+#   name: react
+#   url:  "https://react.dev/"
+#   badge: "files/badges/rsz3/react-original-wordmark.svg"
 
 - type: certification
   name: opencv
   url:  "https://opencv.org/"
   badge: "/files/badges/rsz3/opencv.svg"
 
-- type: certification
-  name: jira
-  url:  "https://www.atlassian.com/software/jira"
-  badge: "files/badges/rsz3/jira-original-wordmark.svg"
+# - type: certification
+#   name: jira
+#   url:  "https://www.atlassian.com/software/jira"
+#   badge: "files/badges/rsz3/jira-original-wordmark.svg"
 
-- type: certification
-  name: flask
-  url:  "https://flask.palletsprojects.com/en/stable/"
-  badge: "files/badges/rsz3/flask.svg"
+# - type: certification
+#   name: flask
+#   url:  "https://flask.palletsprojects.com/en/stable/"
+#   badge: "files/badges/rsz3/flask.svg"
 
 - type: certification
   name: gcp

@@ -39,7 +39,7 @@ publications:
     summary: This study presents an agile and optimal machine learning approach for detecting inter-ictal states from electroencephalogram (EEG) signals, aiming to enhance epilepsy diagnosis and management. By leveraging advanced feature extraction techniques and a robust classification algorithm, the proposed method achieves high accuracy in identifying inter-ictal patterns, which are crucial for understanding seizure dynamics. The model's performance is validated on a comprehensive EEG dataset, demonstrating its potential for real-world clinical applications. This research contributes to the growing field of AI-driven healthcare solutions, offering a promising tool for clinicians in the fight against epilepsy.
     url: https://doi.org/10.1007/s41870-024-02078-4
   categories: ["journal"]
-  tags: ["Cited by 3"]
+  tags: ["Cited by 4"]
 
 - title: Blockchain Framework for Agro Financing of Farmers in South India
   publishedIn:

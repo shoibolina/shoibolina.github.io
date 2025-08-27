@@ -64,9 +64,9 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Supporting design of a deep-learning pipeline on satellite imagery to identify candidate aquatic habitats for vector surveillance
-    - Developing a lightweight detector/tracker to quantify larvae vectors from water samples
-    - Curating datasets, defining labeling and QA guidelines, while maintaining reproducible Python pipelines with version control
+    - Automated processing and documentation of geospatial features by integrating 2500+ tabular data and imagery into structured format using Python libraries
+    - Prepared training datasets through annotation and data conversion in ArcGIS Pro, and supported baseline experiments for spatial detection models
+
 
 - company:
     name: Emory Center for Digital Scholarship, Woodruff Library
@@ -80,9 +80,10 @@ experiences:
     start: Jan 2025
     end: May 2025
     responsibilities:
-    - Led the technical development of a 4-person, cross-functional team for an image segmentation pipeline to automate road extraction from 150+ years of historical maps of Atlanta, reducing manual tracing efforts using ArcGIS by 95%
-    - Fine-tuned NVIDIA SegFormer-B0 on “DHK 200 Turkey” map tiles (15-epoch AdamW + Dice-loss; validation Dice > 0.85) and warm-started that checkpoint on 1974 Atlanta maps for 200 more epochs, raising best Dice from 0.88 to 0.91
-    - Automated large-scale inference by stitching tile-level predictions into a dimension-matched GeoTIFF and hardened GPU workflows with proactive memory clears plus standardized mask polarity, eliminating out of memory (OOM) errors
+    - Developed a novel pipeline in a 4-person, cross-functional team for enabling scalable analysis for 150+ years of historical maps of Atlanta, reduced manual digitization effort by over 95%
+    - Enhanced structural quality predictions by 41%, reducing geometric misalignments compared to random baseline
+    - Validated network consistency with 36% longer continuous road segments and 26% fewer fragmented components, demonstrating the pipeline’s ability to preserve road topology for GIS workflows
+
 
 - company:
     name: Department of Biomedical Informatics, Emory School of Medicine
@@ -96,9 +97,10 @@ experiences:
     start: Jan 2024
     end: Jul 2024
     responsibilities:
-    - Collaborated with Division of Physical Therapy in a 4-person team to develop a cost-effective, marker-less classification model for gait features to enable healthcare professionals to monitor mobility changes and detect early signs of gait abnormalities
-    - Generated biomarker keypoint datasets from over 300 mobile phone videos (~250 GB) using Python, and implemented ETL processes to prepare data for machine learning, achieving 91% classification accuracy on the best model
-    - Stored and managed the generated keypoint data on the department’s high-performance computing cluster, enabling scalable ccess and streamlined processing for subsequent analysis workflows
+    - Collaborated with Division of Physical Therapy in a 4-person team to develop a cost-effective, marker-less tool that enable healthcare professionals monitor mobility changes and detect early signs of gait abnormalities
+    - Generated human pose landmarks (keypoints) from 700+ smartphone videos (~250 GB) using Python based computer vision libraries and securely stored datasets on Emory’s HPC cluster
+    - Delivered proof-of-concept classifier with 90% accuracy, later extended by team for multi-modal integration
+
 
 - company:
     name: Department of Computer Science & Engg., Manipal Institute of Technology
@@ -112,6 +114,6 @@ experiences:
     start: Aug 2021
     end: Dec 2023
     responsibilities:
-    - Developed a lightweight, integrable machine learning model achieving 97.46% accuracy for classifying EEG signals into seizure, inter-ictal, and normal states, with a short runtime of 2.9 minutes
-    - Spearheaded an interdisciplinary project predicting diabetic patient treatment costs by analyzing over 500 patient records and building a wrapper-based classification model with 96% accuracy using Python libraries
-    - Coded a Go-based algorithm to calculate farmer credit scores within a blockchain framework, supporting faster agro-financing decisions for producers in South India
+    - Developed a lightweight, integrable EEG classifier, that enabled rapid seizure detection with 97% accuracy within 3 minutes
+    - Collaborated with the Department of Pharmacy to build a diabetic treatment cost-prediction model with 96% accuracy
+    - Implemented blockchain based credit scoring algorithm in Go for accelerating agro-financing workflows in Southern India
