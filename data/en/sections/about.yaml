@@ -92,6 +92,11 @@ badges:
   badge: "/files/badges/pytorch-plain-wordmark.svg"
 
 - type: certification
+  name: opencv
+  url:  "https://opencv.org/"
+  badge: "/files/badges/rsz3/opencv.svg"
+
+- type: certification
   name: postgres
   url:  "https://www.postgresql.org/"
   badge: "files/badges/rsz3/postgresql-original-wordmark.svg"
@@ -106,10 +111,7 @@ badges:
 #   url:  "https://react.dev/"
 #   badge: "files/badges/rsz3/react-original-wordmark.svg"
 
-- type: certification
-  name: opencv
-  url:  "https://opencv.org/"
-  badge: "/files/badges/rsz3/opencv.svg"
+
 
 # - type: certification
 #   name: jira
