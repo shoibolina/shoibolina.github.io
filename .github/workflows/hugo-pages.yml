@@ -24,7 +24,7 @@ jobs:
           fetch-depth: 0
 
       # Toha mounts assets from node_modules; install them if present
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v5
         with:
           node-version: 20
       - name: Install node deps (if any)
