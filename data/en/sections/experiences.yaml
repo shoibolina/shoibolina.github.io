@@ -64,8 +64,11 @@ experiences:
     # end: Dec 2020
     # give some points about what was your responsibilities at the company.
     responsibilities:
-    - Automated processing and documentation of geospatial features by integrating 2500+ tabular data and imagery into structured format using Python libraries
-    - Prepared training datasets through annotation and data conversion in ArcGIS Pro, and supported baseline experiments for spatial detection models
+    # - Working on malaria vector control in Ethiopia using multi-modal (satellite, aerial, drone) imagery
+    - Detected 1600+ mosquito breeding sites with 97% precision, 85% recall using SOTA transformer based models and created map series using ArcGIS Pro
+    - Automated processing and documentation of geospatial features by integrating 2500+ tabular data from field collection and satellite imagery into structured format using Python libraries
+    # - Automated processing and documentation of geospatial features by integrating 2500+ tabular data and imagery into structured format using Python libraries
+    # - Prepared training datasets through annotation and data conversion in ArcGIS Pro, and supported baseline experiments for spatial detection models
 
 
 - company:

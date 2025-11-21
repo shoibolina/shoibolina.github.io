@@ -39,7 +39,7 @@ publications:
     summary: This study presents an agile and optimal machine learning approach for detecting inter-ictal states from electroencephalogram (EEG) signals, aiming to enhance epilepsy diagnosis and management. By leveraging advanced feature extraction techniques and a robust classification algorithm, the proposed method achieves high accuracy in identifying inter-ictal patterns, which are crucial for understanding seizure dynamics. The model's performance is validated on a comprehensive EEG dataset, demonstrating its potential for real-world clinical applications. This research contributes to the growing field of AI-driven healthcare solutions, offering a promising tool for clinicians in the fight against epilepsy.
     url: https://doi.org/10.1007/s41870-024-02078-4
   categories: ["journal"]
-  tags: ["Cited by 4"]
+  tags: ["Cited by 6"]
 
 - title: Blockchain Framework for Agro Financing of Farmers in South India
   publishedIn:
@@ -64,7 +64,7 @@ publications:
 
 - title: Classifying Simulated Gait Impairments using Privacy-preserving Explainable Artificial Intelligence and Mobile Phone Videos
   publishedIn:
-    name: manuscript under review by PLOS Digital Health
+    name: PLOS Digital Health
     date: "2025"
     url: https://journals.plos.org/digitalhealth/
   authors:
@@ -84,6 +84,6 @@ publications:
     url: ""
   paper:
     summary: Gait impairments are prevalent in various neurological and musculoskeletal conditions, significantly affecting individuals' mobility and quality of life. This study presents a novel approach to classify simulated gait impairments using privacy-preserving explainable artificial intelligence (XAI) techniques applied to mobile phone video data. By leveraging advanced machine learning algorithms, the proposed method accurately identifies different types of gait abnormalities while ensuring user privacy through federated learning and differential privacy mechanisms. The explainability aspect of the model provides insights into the decision-making process, enhancing trust and interpretability for clinicians and patients alike. The results demonstrate the potential of this approach in remote health monitoring and rehabilitation, paving the way for accessible and effective gait analysis solutions.
-    url: https://arxiv.org/abs/2412.01056
+    url: https://doi.org/10.1371/journal.pdig.0001004
   categories: ["journal"]
-  # tags: ["Cited by "]
+  tags: ["Cited by 1"]
