@@ -8,16 +8,84 @@ section:
   # Can optionally hide the title in sections
   # hideTitle: true
 
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Awards
+  filter: "Awards"
+- name: Activities
+  filter: "Activities"
+# - name: Hobby
+#   filter: "hobby"
 
 # Your accomplishments
 accomplishments:
+- name: Gates Project Tech Enabler team
+  categories: ["Activities"]
+  image: gates_grp_pix.jpeg
+  timeline: "October 2025" 
+  organization:
+    name: Emory Environmental Science Dept.
+    url: https://envs.emory.edu/
+  courseOverview: Team photo after obtaining the initial results of breeding sites detected in Ethiopia for the tech enabled arm for the larval source management.
+  # certificateURL: ""
+  tags: ["GeoAI", "ArcGIS", "Vector Control"]
+
+- name: Recording Larvae Videos at Prokopec Lab
+  categories: ["Activities"]
+  image: prokopec_lab_lrv_vid2.png
+  timeline: "October 2025" 
+  organization:
+    name: Prokopec Lab, Emory University
+    url: https://www.instagram.com/p/DQF--YtjFfX/?hl=en
+  courseOverview: In process of dataset creation for larvae detection AI!
+  # certificateURL: "https://www.instagram.com/p/DQF--YtjFfX/?hl=en"
+  tags: ["Computer Vision", "Mosquito Larve"]
+
+- name: Atlanta Science Festival
+  categories: ["Activities"]
+  image: asf.jpg
+  timeline: "March 2025" 
+  organization:
+    name: OpenBMI, Emory Dept. of Biomedical Informatics
+    url: https://med.emory.edu/departments/biomedical-informatics/outreach/past-activities.html#:~:text=Buclez%2C%20Athena%20Tian%2C-,Shoibolina%20Kaushik,-%2C%20Elizabeth%20Nemeti%2C%20and
+  courseOverview: While being the Secretary at the official outreach club of the BMI department at Emory, we introduced the working of a pulse oxometer to a wide group of audience ranging from elementary students to adults at the Atlanta Science Festival 2025.
+  # certificateURL: ""
+  tags: ["Community Engagement"]
+
 - name: Poster Competition Winner
-  image: best_poster_award_post.jpg
+  categories: ["Awards"]
+  image: best_poster_award_post_unblur.jpg
   timeline: "April 2024"
   organization:
     name: BioSTAR AI Symposium
-    url: https://bme.gatech.edu/bme/biomedical-ai-symposium
+    # url: https://bme.gatech.edu/bme/biomedical-ai-symposium
+    url: https://med.aws.emory.edu/departments/biomedical-informatics/news-and-events/news-archive/news-archive-2024.html#:~:text=Shoibolina%20Kaushik%20(Emory%20CS%20MS)
   courseOverview: Awarded 3rd prize for the poster "Characterising simulated Gait disorders using mobile videos" at the BioSTAR AI Symposium, organized by The Wallace H. Coulter Department of Biomedical Engineering at Georgia Tech and Emory University. The project involved developing a computer vision pipeline to analyze gait patterns from smartphone videos, enabling early detection of movement disorders. Presented findings to a panel of academic and industry experts, highlighting the potential impact of AI-driven tools in biomedical research and healthcare.
-       
-  certificateURL: "https://www.linkedin.com/posts/shoibolina-kaushik_aiforsociety-aiforhealth-biomedicalinformatics-activity-7185317072489336832-pjmr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMhrO4BrQUJxIN3epEuMwlasw_OAHl_9j4"
-  # certificateURL: "https://example.com"
+  # certificateURL: "https://www.linkedin.com/posts/shoibolina-kaushik_aiforsociety-aiforhealth-biomedicalinformatics-activity-7185317072489336832-pjmr?utm_source=share&utm_medium=member_desktop&rcm=ACoAADMhrO4BrQUJxIN3epEuMwlasw_OAHl_9j4"
+  # certificateURL: "https://med.aws.emory.edu/departments/biomedical-informatics/news-and-events/news-archive/news-archive-2024.html#:~:text=Shoibolina%20Kaushik%20(Emory%20CS%20MS)"
+  tags: ["Computer Vision", "Human Mobility"]
+
+- name: Community Outreach
+  categories: ["Activities"]
+  image: 14 copy.jpg
+  timeline: "April 2023" 
+  organization:
+    name: Rotaract Club of Manipal
+    url: https://www.manipal.edu/mit/mit-experience/student-welfare/non-technical-clubs/rotaract-club-of-manipal---mit--manipal-academy-of-higher-educat.html
+  courseOverview: Participated in community outreach programs organized by Rotaract Club of Manipal, focusing on education and health awareness for underprivileged children in the local community. Engaged in activities such as tutoring, organizing health camps, and distributing educational materials to promote better learning opportunities and well-being among children.   
+  # certificateURL: ""
+  tags: ["Community Engagement"]
+
+- name: World Earth Day Plantation Drive
+  categories: ["Activities"]
+  image: 20220604_113147.jpg
+  timeline: "April 2022" 
+  organization:
+    name: Manipal Institute of Technology, MAHE
+    url: https://www.manipal.edu/mit.html
+  courseOverview: MIT Manipal director Commander (Dr) Anil Rana observed World Earth Day by planting saplings around MIT Manipal campus with Rotaract Club of Manipal's volunteers.   
+  # certificateURL: ""
+  tags: ["Community Engagement"]
+

@@ -10,11 +10,11 @@ section:
 
 # Your achievements achievements
 achievements:
-- title: Poster Competition Winner
-  image: /images/sections/achievements/presenter.jpg
-  summary: Best poster in the BioSTAR AI Symposium
+- title: Gates Project Tech Enabler team
+  image: /images/sections/achievements/gates_grp_pix.jpeg
+  summary: Team photo after obtaining the initial results of breeding sites detected in Ethiopia for the tech enabled arm for the larval source management
 - title: Champion
-  image: /images/sections/achievements/sport.jpg
+  image: /images/sections/achievements/gates_grp_pix.jpeg
   summary: Champion in cycling inter-city cycling championship 2020.
 - title: Graduation
   image: /images/sections/achievements/graduation-cap.jpg

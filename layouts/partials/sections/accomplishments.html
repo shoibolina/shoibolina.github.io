@@ -1,0 +1,139 @@
+{{/* Independent filter UI for the Accomplishments section */}}
+
+{{ $sectionID := .section.id | default (replace (lower .section.name) " " "-") }}
+
+<div class="container-fluid anchor pb-5 accomplishments-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center"><span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ else }}
+    <h1 class="text-center" style="display:none"><span id="{{ $sectionID }}"></span>{{ .section.name }}</h1>
+  {{ end }}
+
+  {{/* FILTER BUTTONS */}}
+  {{ if .buttons }}
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="acc-filter-buttons">
+      {{ range .buttons }}
+      <button type="button"
+              class="btn btn-dark acc-filtr-control"
+              data-filter="acc-{{ lower .filter }}">
+        {{ .name }}
+      </button>
+      {{ end }}
+    </div>
+  </div>
+  {{ end }}
+
+  {{/* CARDS */}}
+  <div class="container">
+    <div class="row" id="acc-card-holder">
+      {{ range .accomplishments }}
+        {{ partial "cards/accomplishment" . }}
+      {{ end }}
+    </div>
+  </div>
+</div>
+
+<script>
+/* Lightweight, section-local filtering. No interaction with Publications. */
+(function () {
+  const root = document.getElementById('{{ $sectionID }}');
+  if (!root) return;
+
+  const btns  = root.querySelectorAll('.acc-filtr-control');
+  const cards = root.querySelectorAll('.acc-filtr-item');
+
+  function apply(filter) {
+    cards.forEach(el => {
+      const cats = (el.getAttribute('data-category') || '').split(',');
+      const match = filter === 'acc-all' || cats.includes(filter);
+      el.style.display = match ? '' : 'none';
+    });
+  }
+
+  // default to "All"
+  apply('acc-all');
+
+  btns.forEach(b => {
+    b.addEventListener('click', () => {
+      btns.forEach(x => x.classList.remove('active'));
+      b.classList.add('active');
+      apply(b.dataset.filter);
+    });
+  });
+})();
+</script>
+
+
+<!-- {{/* layouts/partials/sections/accomplishments.html */}}
+
+{{ $sectionID := replace (lower .section.name) " " "-" }}
+{{ if .section.id }}
+  {{ $sectionID = .section.id }}
+{{ end }}
+
+<div class="container-fluid anchor pb-5 accomplishments-section" id="{{ $sectionID }}">
+  {{ if not (.section.hideTitle) }}
+    <h1 class="text-center">
+      <span id="{{ $sectionID }}"></span>{{ .section.name }}
+    </h1>
+  {{ else }}
+    <h1 class="text-center" style="display: none">
+      <span id="{{ $sectionID }}"></span>{{ .section.name }}
+    </h1>
+  {{ end }}
+
+  <div class="container ms-auto text-center">
+    <div class="btn-group flex-wrap" role="group" id="accomplishment-filter-buttons">
+      {{ range .buttons }}
+        keep the "pub-" prefix so it matches the JS/CSS used by Publications
+        <button type="button"
+                class="btn btn-dark pub-filtr-control"
+                data-filter="pub-{{ lower .filter }}">
+          {{ .name }}
+        </button>
+      {{ end }}
+    </div>
+  </div>
+
+  <div class="container filtr-accomplishments">
+    <div class="row" id="accomplishment-card-holder">
+      {{ range .accomplishments }}
+        {{ partial "cards/accomplishment" . }}
+      {{ end }}
+    </div>
+  </div>
+</div> -->
+
+
+<!-- {{/* Awards & Activities section wrapper */}}
+{{ $lang := site.Language.Lang | default "en" }}
+{{ $sec  := index site.Data $lang "sections" "accomplishments" }}
+
+<section id="{{ $sec.section.id }}">
+  <div class="container">
+    {{ if not $sec.section.hideTitle }}
+      <h1 class="section-title">{{ $sec.section.name }}</h1>
+    {{ end }}
+
+    {{ with $sec.buttons }}
+      <div class="btn-group mb-3 pub-filtr-control" role="group" aria-label="Accomplishments filters">
+        {{ range . }}
+          {{ $f := lower .filter }}
+          <button
+            type="button"
+            class="btn btn-info"
+            data-filter='{{ if eq $f "all" }}pub-all{{ else }}{{ printf "pub-%s" $f }}{{ end }}'>
+            {{ .name }}
+          </button>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    <div id="accomplishment-card-holder" class="row">
+      {{ range $sec.accomplishments }}
+        {{ partial "cards/accomplishment.html" . }}
+      {{ end }}
+    </div>
+  </div>
+</section> -->
