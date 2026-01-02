@@ -50,7 +50,7 @@ experiences:
 
 - company:
     name: Department of Environmental Sciences, Laney Graduate School
-    url: "https://ecds.emory.edu/"
+    url: "https://envs.emory.edu/"
     location: Atlanta, GA, USA
     # company overview
   positions:
@@ -90,7 +90,7 @@ experiences:
 
 - company:
     name: Department of Biomedical Informatics, Emory School of Medicine
-    url: "https://ecds.emory.edu/"
+    url: "https://med.emory.edu/departments/biomedical-informatics/index.html"
     location: Atlanta, GA, USA
     # company overview
   positions:
@@ -107,7 +107,7 @@ experiences:
 
 - company:
     name: Department of Computer Science & Engg., Manipal Institute of Technology
-    url: "https://ecds.emory.edu/"
+    url: "https://www.manipal.edu/mit/department-faculty/department-list/school-of-computer-engineering.html"
     location: Manipal, KA, India
     # company overview
   positions:
