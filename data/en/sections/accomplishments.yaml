@@ -21,6 +21,16 @@ buttons:
 
 # Your accomplishments
 accomplishments:
+- name: AGU 2025 conference at New Orleans, LA
+  categories: ["Activities"]
+  image: agu25.png
+  timeline: "December 2025" 
+  organization:
+    name: American Geophysical Union
+    url: https://www.agu.org/annual-meeting-2025
+  courseOverview: Gained insights from leading experts in the field of geosciences and AI, engaging in workshop and discussions spanning from cyberinfrastructure, digital twins for community resilience, wildfire spread, flood prediction, extreme heat adaptation, and novel drones for environment monitoring. 
+  # certificateURL: ""
+  tags: ["GeoAI", "Conference"]
 - name: Gates Project Tech Enabler team
   categories: ["Activities"]
   image: gates_grp_pix.jpeg
