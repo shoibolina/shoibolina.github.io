@@ -52,20 +52,24 @@ experiences:
     name: Department of Environmental Sciences, Laney Graduate School
     url: "https://envs.emory.edu/"
     location: Atlanta, GA, USA
-    # company overview
   positions:
-  # - project title: Gates Foundation funded Malaria control initiative in Ethiopia
+  - designation: Information Analyst
+    project: GATES Foundation funded Malaria control initiative in Ethiopia
+    # department: Department of Environmental Sciences
+    start: Jan 2026
+    showResponsibilities: false
+    responsibilities:
+    - ...
   - designation: Research Specialist
     project: GATES Foundation funded Malaria control initiative in Ethiopia
     department: Department of Environmental Sciences
     start: Jul 2025
-    # end: Jul 2026
-    # don't provide end date if you are currently working there. It will be replaced by "Present"
-    # end: Dec 2020
-    # give some points about what was your responsibilities at the company.
+    end: Jan 2026
+    showResponsibilities: true
     responsibilities:
-    # - Working on malaria vector control in Ethiopia using multi-modal (satellite, aerial, drone) imagery
-    - Detected 1600+ mosquito breeding sites with 97% precision, 85% recall using SOTA transformer based models and created map series using ArcGIS Pro
+    - Collaborated with a multidisciplinary team to support the larval source management arm of the project through detection of mosquito breeding sites from remote sensing and AI
+    - Identified key environmental factors for estimating larval productivity at each site and aided in the development of AI model for the same
+    - Detected 1600+ mosquito breeding sites with 97% precision, 85% recall using SOTA transformer-based models and created map series using ArcGIS Pro
     - Automated processing and documentation of geospatial features by integrating 2500+ tabular data from field collection and satellite imagery into structured format using Python libraries
     # - Automated processing and documentation of geospatial features by integrating 2500+ tabular data and imagery into structured format using Python libraries
     # - Prepared training datasets through annotation and data conversion in ArcGIS Pro, and supported baseline experiments for spatial detection models
@@ -79,9 +83,10 @@ experiences:
   positions:
   - designation: Digital Scholarship Assistant
     project: Extracting road networks from historical maps of Atlanta
-    department: Emory Center for Digital Scholarship (ECDS)
+    # department: Emory Center for Digital Scholarship (ECDS)
     start: Jan 2025
     end: May 2025
+    showResponsibilities: true
     responsibilities:
     - Developed a novel pipeline in a 4-person, cross-functional team for enabling scalable analysis for 150+ years of historical maps of Atlanta, reduced manual digitization effort by over 95%
     - Enhanced structural quality predictions by 41%, reducing geometric misalignments compared to random baseline
@@ -96,9 +101,10 @@ experiences:
   positions:
   - designation: Graduate Research Assistant
     project: Classifying clinical gait disorders from Smartphone Videos
-    department: Department of Biomedical Informatics
+    # department: Department of Biomedical Informatics
     start: Jan 2024
     end: Jul 2024
+    showResponsibilities: true
     responsibilities:
     - Collaborated with Division of Physical Therapy in a 4-person team to develop a cost-effective, marker-less tool that enable healthcare professionals monitor mobility changes and detect early signs of gait abnormalities
     - Generated human pose landmarks (keypoints) from 700+ smartphone videos (~250 GB) using Python based computer vision libraries and securely stored datasets on Emory’s HPC cluster
@@ -113,9 +119,10 @@ experiences:
   positions:
   - designation: Undergraduate Research Assistant
     project: Applied AI and Blockchain FinTech
-    department: Department of Computer Science and Engineering
+    # department: Department of Computer Science and Engineering
     start: Aug 2021
     end: Dec 2023
+    showResponsibilities: true
     responsibilities:
     - Developed a lightweight, integrable EEG classifier, that enabled rapid seizure detection with 97% accuracy within 3 minutes
     - Collaborated with the Department of Pharmacy to build a diabetic treatment cost-prediction model with 96% accuracy

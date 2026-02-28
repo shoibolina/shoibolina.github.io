@@ -1,0 +1,173 @@
+<div class="col-10 col-lg-8">
+    <div class="experience-entry-heading">
+        {{ $logoImage:= resources.Get .company.logo}}
+        {{ $darkLogoImage:= resources.Get .company.darkLogo}}
+        {{ if $logoImage }}
+        <div class="logo-holder"> 
+            <img class="company-logo light-logo" src="{{ $logoImage.RelPermalink }}" alt="{{ .name }}" />
+            {{ if $darkLogoImage }}
+            <img class="company-logo dark-logo" src="{{ $darkLogoImage.RelPermalink }}" alt="{{ .name }}" />
+            {{ end }}
+        </div>
+        {{ end }}
+        <!-- Total experience duration on a company is time between the starting date of the oldest position and ending date of most recent position -->
+        {{ $oldestPosition := index (last 1 .positions) 0}}
+        {{ $mostRecentPosition := index (first 1 .positions) 0}}
+        <!-- <div class="company-heading me-2">
+            <h5>{{ if .company.url }}<a href={{.company.url}} title="{{ .company.name }}" target="_blank" rel="noopener">{{ .company.name }}</a>{{ else }}{{ .company.name }}{{ end }}</h5> -->
+            <!-- <p class="text-muted">
+                {{ $oldestPosition.start }} - {{ if $mostRecentPosition.end }}{{ $mostRecentPosition.end }}{{ else }}{{ i18n "present" }}{{ end }}
+            </p> -->
+            <!-- <p class="text-muted me-2">
+            <i class="fa-solid fa-location-dot"></i> {{ .company.location }}
+        </p>
+        </div> -->
+        <!-- <p class="text-muted">
+            <i class="fa-solid fa-location-dot"></i> {{ .company.location }}
+        </p> -->
+        <!-- Add company overview -->
+        <p>{{ .company.overview | markdownify }}</p>
+    </div>
+    <!-- Add the positions information -->
+    <div class="positions">
+    {{ range $index,$position:= .positions }}
+        <!-- <div class="company-heading">
+
+            {{ with $position.project }}
+                <div class="h5 font-semibold mt-1">{{ . }}</div>
+            {{ end }}
+
+            {{ with $position.department }}
+                <div class="text-muted mt-1">{{ . }}</div> #grey text
+            {{ end }}
+            <p class="text-muted">{{ $position.start }} - {{if $position.end }} {{ $position.end }} {{else}} {{ i18n "present" }} {{end}}</p>
+
+            <h5 class="designation">{{ $position.designation }}</h5>
+            
+        </div> -->
+
+        <!-- <div class="company-heading">
+            {{/* Project title – big and accent color */}}
+            {{ with $position.project }}
+                <div class="h3 text-info font-semibold mb-1">{{ . }}</div>
+            {{ end }}
+
+            {{/* Department + dates on the same row */}}
+            {{ if or $position.department $position.start }}
+                <div class="d-flex flex-wrap align-items-baseline">
+                {{ with $position.department }}
+                    <div class="text-secondary mr-3">{{ . }}</div>
+                {{ end }}
+
+                <div class="text-muted small">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div>
+                </div>
+            {{ end }}
+
+            {{/* Designation – separate color */}}
+            {{ with $position.designation }}
+                <h5 class="designation text-warning mt-1 mb-2">{{ . }}</h5>
+            {{ end }}
+        </div> -->
+
+        <!-- <div class="company-heading">
+            {{/* Project title — accent (same as links) */}}
+            {{ with $position.project }}
+                <div class="h4 font-semibold mt-1">{{ . }}</div>
+            {{ end }}
+
+            {{/* Department + date on one line */}}
+            {{ if or $position.department $position.start }}
+                <div class="d-flex flex-wrap align-items-baseline">
+                {{ with $position.department }}
+                    <div class="text-secondary mr-3">{{ . }}</div>
+                {{ end }}
+                <div class="text-muted small">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div>
+                </div>
+            {{ end }}
+
+            {{/* Designation — default text color, heading size */}}
+            {{ with $position.designation }}
+                <h5 class="mt-1 mb-2">{{ . }}</h5>
+            {{ end }}s
+        </div> -->
+
+        <!-- <div class="company-heading">
+            {{/* Project title — accent (same as links) */}}
+            {{ with $position.project }}
+                <div class="h3 font-semibold">{{ . }}</div>
+                <div class="h6 text-muted">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div>
+                <div class="h3 font-semibold">{{ . }}
+                <p class="h6 text-muted">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </p>
+                </div>
+            {{ end }}
+
+            {{/* Department + date on one line */}}
+            {{ if or $position.designation $position.start }}
+                <div class="d-flex flex-wrap align-items-baseline">
+                {{ with $position.designation}}
+                    <div class="h5">{{ . }}</div>
+                {{ end }} -->
+                <!-- <div class="h6 text-muted">
+                    {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </div> -->
+                <!-- </div>
+            {{ end }} -->
+
+            <!-- {{/* Designation — default text color, heading size */}}
+            {{ with $position.designation }}
+                <h5 class="mt-1 mb-2">{{ . }}</h5>
+            {{ end }} -->
+        <!-- </div> -->
+
+        <div class="company-heading">
+            {{/* Project title — big, same accent color as links */}}
+            {{ with $position.project }}
+                <h2 class="h3 font-semibold mb-2">{{ . }}</h2>
+            {{ end }}
+
+            {{/* Company (link) + location on the same line, with a little space */}}
+            <div class="d-flex align-items-baseline flex-wrap gap-2 mb-2">
+                <h5 class="mb-0">
+                {{ if $.company.url }}
+                    <a href="{{ $.company.url }}" title="{{ $.company.name }}" target="_blank" rel="noopener">{{ $.company.name }}</a>
+                {{ else }}
+                    {{ $.company.name }}
+                {{ end }}
+                </h5>
+                <span class="text-muted">
+                <i class="fa-solid fa-location-dot"></i> {{ $.company.location }}
+                </span>
+            </div>
+
+            {{/* Designation (left) + dates (right) on one row */}}
+            <div class="d-flex align-items-baseline flex-wrap gap-2 mb-2">
+                {{ with $position.designation }}
+                <h5 class="mb-2">{{ . }}</h5>
+                {{ end }}
+                <span class="text-muted small">
+                {{ $position.start }} – {{ if $position.end }}{{ $position.end }}{{ else }}{{ i18n "present" }}{{ end }}
+                </span>
+            </div>
+
+
+            <!-- Add the responsibilities handled at this position -->
+            {{ if $position.responsibilities }}
+                <!-- <h6 class="text-heading">{{ i18n "responsibilities" }}</h6> -->
+                <ul class="justify-content-around">
+                    {{ range $position.responsibilities }}
+                        <li>{{ . | markdownify }}</li>
+                    {{ end }}
+                </ul>
+            {{ end }}
+        </div>
+    {{ end }}
+    </div>
+</div>
